@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro DOM</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <form id="formulario" class="form border rounded shadow p-5">
+      <label id="lbl_usuario" for="">USUARIO</label>
+      <input
+        id="usuario"
+        type="text"
+        class="mb-3 form-control mt-2"
+        placeholder="username"
+      />
+      <label id="lbl_usuario" for="">CONTRASEÑA</label>
+      <input
+        id="contraseña"
+        type="password"
+        class="mb-3 form-control mt-2"
+        placeholder="password"
+      />
+      <button
+        onclick="iniciarSesion()"
+        id="btn_iniciar"
+        class="btn btn-outline-dark my-3"
+        type="submit"
+      >
+        Inicio de sesion
+      </button>
+      <a id="recuperar" href="" class="">Recuperar contraseña</a>
+    </form>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+ .oculto{
+    display: none;
+}
+
+.activo {
+    display: block ;
+}
+/*
+.form-div-container {
+    height: 400px;
+}
+
+.form-container {
+height: 100%;
+display: inline-block;
+justify-content: center;
+align-content: center;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+} */
